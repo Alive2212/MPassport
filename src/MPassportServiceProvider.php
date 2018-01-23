@@ -13,7 +13,7 @@ class MPassportServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        include __DIR__.'/routes/api.php';
     }
 
     /**
